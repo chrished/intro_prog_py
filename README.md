@@ -1,6 +1,12 @@
 # Introduction to Programming using Python
 This is meant to be a short course that helps you to start programming in Python, especially if you have little to no background in programming. There is no need for yet another course on how to learn Python, instead I will select a subset of topics that are likely to be interesting for researchers, give a short introduction and point towards resources where you can learn more. First we will cover the basics of how to program in Python and get everyone up and running. After having mastered the very basics, each student will design a small programming project, e.g. downloading data from the internet, reorganizing a dataset, statistical analysis of some data... In general many repetitive tasks can be automated in a python script and we'll learn how to do that in the next few weeks. Over time you will appreciate the versatility and simplicity of Python!
 
+Some Links:
+* [Python Getting Started](https://www.python.org/about/gettingstarted/)
+* [Python Wiki in other languages](https://wiki.python.org/moin/Languages)
+* [Curated list of links related to Python](https://github.com/vinta/awesome-python)
+
+
 ## Class 0 - Git and installing python
 1. Before we start with Python, you should make yourself familiar with [Git](https://git-scm.com/) and [Github](https://github.com/). Git is a distributed version control system, mainly used for code.  To get familiar with git follow this [tutorial](https://try.github.io)
 
