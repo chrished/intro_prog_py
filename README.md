@@ -5,7 +5,7 @@ Some Links:
 * [Python Getting Started](https://www.python.org/about/gettingstarted/)
 * [Python Wiki in other languages](https://wiki.python.org/moin/Languages)
 * [Curated list of links related to Python](https://github.com/vinta/awesome-python)
-
+* [Data Science related Notebooks](https://github.com/donnemartin/data-science-ipython-notebooks)
 
 ## Class 0 - Git and installing python
 1. Before we start with Python, you should make yourself familiar with [Git](https://git-scm.com/) and [Github](https://github.com/). Git is a distributed version control system, mainly used for code.  To get familiar with git follow this [tutorial](https://try.github.io)
