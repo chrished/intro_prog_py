@@ -1,9 +1,9 @@
-# Introduction to Python
+## Introduction to Python
 
 
 ---
 
-## Class Schedule, Materials etc
+### Class Schedule, Materials etc
 
 - Classes will be held every Tuesday and Thursday at 5pm in 13.004, starting April 10th
 - contact me at: christoph.hedtrich@upf.edu
@@ -17,7 +17,7 @@
 - most repetitive tasks can be automated
 - also helps to make research easier to replicate
 
----
+
 
 ### Why Python?
 
@@ -27,8 +27,16 @@
 
 ---
 
+### What is the goal of this class?
+
+- help you get started with programming
+- lectures will introduce basic concepts and then let you work on exercises
+- you should plan and execute a little project
+
+---
+
 ### What do we do today?
 
 1. Install Python
 2. Run our first program
-3. Try out Github
+3. Try out Github 
