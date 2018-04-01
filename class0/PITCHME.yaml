@@ -4,12 +4,11 @@
 # For details, visit Wiki:
 # https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings
 #
-theme : black
+theme : simple
 theme-override : assets/css/PITCHME.css
-logo : assets/image/logo.png
-background : assets/image/constellation.svg
-background-size : cover
+# theme-override : assets/css/PITCHME.codemax.css
 highlight : atom-one-light
+logo : assets/image/logo.png
 transition : none
 published : true
-footnote : "GitPitch Pro [ Constellation ] Presentation Template"
+footnote : "GitPitch [ White ] Presentation Template"
