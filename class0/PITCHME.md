@@ -54,6 +54,8 @@
 3. follow the installation instructions (just keep the standard)
 4. when you are done open 'Spyder' and execute the "Hello World!" program
 
+---
+
 ### Install Git and make a Github account
 Git is a version control system, which is ideal to save and track your code
 
