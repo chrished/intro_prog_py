@@ -8,6 +8,9 @@ Some Links:
 * [Data Science related Notebooks](https://github.com/donnemartin/data-science-ipython-notebooks)
 
 ## Class 0 - Git and installing python
+
+[Slides - Class 0](https://gitpitch.com/chrished/intro_prog_py/master?p=class0)
+
 1. Before we start with Python, you should make yourself familiar with [Git](https://git-scm.com/) and [Github](https://github.com/). Git is a distributed version control system, mainly used for code.  To get familiar with git follow this [tutorial](https://try.github.io)
 
 2. Install Python. I suggest the [Anaconda Distribution](https://www.anaconda.com/download). It comes with many packages preinstalled and an IDE similar to RStudio. Please install python 3.*
@@ -45,7 +48,7 @@ One of the biggest benefits of Python is its large user base. You will find a lo
 * Beautiful Soup and urrlib, simple web scraping example
 
 ## Class 4 - Student Projects
-From now on, classes will be more like a QA session. You can only learn programming by doing, therefore it's important to get started on your projects and along the way I can help with issues that come up. 
+From now on, classes will be more like a QA session. You can only learn programming by doing, therefore it's important to get started on your projects and along the way I can help with issues that come up.
 
 * Plan your own project using python, what concepts do you need to learn? What packages do you need?
 
