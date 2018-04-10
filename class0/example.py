@@ -7,3 +7,11 @@ Created on Tue Apr 10 15:44:27 2018
 """
 
 print("Hello World!")
+
+length = 5
+width = 3 
+area = length*width
+
+
+myname = "christoph"
+print("hello " + myname)
