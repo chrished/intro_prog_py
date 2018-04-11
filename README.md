@@ -22,9 +22,6 @@ Some Links:
 
 ## Class 1 - First Introduction to Python
 
-* Why programming in general?
-* Why python?
-* Some use cases
 * Basic introduction: Define variables, lists and dictionaries
 * Operators on numbers/strings
 * Data types
