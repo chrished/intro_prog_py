@@ -32,7 +32,7 @@ html:-moz-full-screen-ancestor {
 }
 
 .reveal pre code {
-  font-size: 1.1em;
+  font-size: .8em;
   line-height: 1.2;
   max-height: 50vh !important;
   border-radius: 10px;
@@ -99,7 +99,6 @@ html:-moz-full-screen-ancestor {
 .reveal .slides section>* {
     margin-left: 0;
     margin-right: 0;
-    font-size: .8em !important;
 }
 
 .gp-tip { font-size : 1.5em; }
