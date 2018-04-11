@@ -26,7 +26,7 @@ html:-moz-full-screen-ancestor {
 }
 
 .reveal pre code {
-  font-size: 1.2em;
+  font-size: .9em;
   line-height: 1.2;
   max-height: 50vh !important;
   border-radius: 10px;
@@ -38,7 +38,7 @@ html:-moz-full-screen-ancestor {
   padding: 1px 15px;
   border-radius: 15px;
   opacity: 0.75 !important;
-  font-size: 50% !important;
+  font-size: 35% !important;
 }
 
 .reveal p span.slide-title {
@@ -90,4 +90,3 @@ html:-moz-full-screen-ancestor {
 .gp-contact { font-size : 1.4em; }
 
 .gp-download { margin-left: 10px; }
-
