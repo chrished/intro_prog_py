@@ -177,33 +177,9 @@ x >= y
 ```
 
 ---
-
-
-### Booleans
+### Booleans 2
 Booleans evaluate only to "True" or "False". We need those so that we can decide what to do in a program.
 
-```python
-mybool = True
-otherbool = False
-```
-
-Comparison Operators
-```python
-x = 1.5
-y = 2.
-# equal to
-x == y
-# not equal to
-x != y
-# smaller than
-x < y
-# greater than
-x > y
-# smaller than
-x <= y
-# greater than
-x >= y
-```
 Now consider logical "and" and "or"
 ```python
 z = 3.
@@ -214,3 +190,20 @@ x < y or x > z
 ```
 
 ---
+
+### If-elif-else
+Suppose we want to execute a part of a program only under some condition
+```python
+rain = True
+sun = False
+if rain:
+    print("Oh no it rains!")
+elif sun:
+    print("Yeah sun")
+else:
+    print("At least it does not rain")
+```
+* "if condition:", the ":" tells python to find starting on the next line the relevant code that should be executed if "condition" is met.
+* codeblock to be executed is indented by 4 spaces (and ends 4 spaces to the left)
+* "elif" is only called if the first condition was "false"
+*  "else" is only called if neither the first nor the second condition was "true"
