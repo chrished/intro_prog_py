@@ -26,7 +26,7 @@ html:-moz-full-screen-ancestor {
 }
 
 .reveal pre code {
-  font-size: .9em;
+  font-size: 1.1em;
   line-height: 1.2;
   max-height: 50vh !important;
   border-radius: 10px;
@@ -36,9 +36,9 @@ html:-moz-full-screen-ancestor {
   color: white;
   background: #1f1c18;
   padding: 1px 15px;
-  border-radius: 15px;
+  border-radius: 20px;
   opacity: 0.75 !important;
-  font-size: 35% !important;
+  font-size: 20% !important;
 }
 
 .reveal p span.slide-title {
