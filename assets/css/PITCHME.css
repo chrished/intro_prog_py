@@ -25,13 +25,9 @@ html:-moz-full-screen-ancestor {
 }
 
 .reveal pre {
-  width: 120%;
+  width: 90%;
   margin-left: -10%;
   font-size: .65em !important;
-}
-
-/* .reveal pre {
-  width: 100%;
   box-shadow : none;
 }
 
@@ -40,7 +36,7 @@ html:-moz-full-screen-ancestor {
   line-height: 1.2;
   max-height: 50vh !important;
   border-radius: 10px;
-} */
+}
 
 .reveal .slides section .code-presenting-annotation {
   color: white;
@@ -97,11 +93,13 @@ html:-moz-full-screen-ancestor {
 
 .reveal .slides {
     text-align: left;
+    font-size: .8em !important;
 }
 
 .reveal .slides section>* {
     margin-left: 0;
     margin-right: 0;
+    font-size: .8em !important;
 }
 
 .gp-tip { font-size : 1.5em; }
