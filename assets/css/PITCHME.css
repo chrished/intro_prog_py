@@ -27,7 +27,7 @@ html:-moz-full-screen-ancestor {
 .reveal pre {
   width: 120%;
   margin-left: -10%;
-  font-size: 1.3em;
+  font-size: .65em;
 }
 
 /* .reveal pre {
