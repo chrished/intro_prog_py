@@ -17,7 +17,7 @@ Define a variable like this
 ```python
 myvar = 3
 ```
-The name of a variable has to start with a letter, no spaces allowed, no special symbols expect underscore
+The name of a variable has to start with a letter, no spaces allowed, no special symbols except underscore
 ```python
 _myvar2 = 3
 ```
@@ -35,7 +35,9 @@ type(y)
 z = 3.0
 type(z)
 ```
+
 * Strings
+
 ```python
 name = 'chris'
 type(name)
