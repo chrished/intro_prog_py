@@ -14,11 +14,11 @@ Today:
 ---
 ### Variables
 Define a variable like this
-```python3
+```python
 myvar = 3
 ```
 The name of a variable has to start with a letter, no spaces allowed, no special symbols except underscore
-```python3
+```python
 _myvar2 = 3
 ```
 Now try to find a variable name, that is NOT allowed!
@@ -27,7 +27,7 @@ Now try to find a variable name, that is NOT allowed!
 ### Basic Datatypes
 * Numbers: Integer and Floating-Point
 
-```python3
+```python
 x = 3
 type(x)
 y = 3.5
@@ -38,7 +38,7 @@ type(z)
 
 * Strings
 
-```python3
+```python
 name = 'chris'
 type(name)
 numstr = '2.5'
@@ -50,7 +50,7 @@ type(numstr)
 ### Math Operators
 You should give a and b a value and try out Python as a calculator
 
-```python3
+```python
 # take a to the power of b
 a**b
 # modulus (remainder)
@@ -73,7 +73,7 @@ Did you manage to produce an error somewhere?
 
 ### String Operators
 The key operators for strings are concatenation and replication
-```python3
+```python
 name = 'chris'
 greeting = 'hello'
 print(greeting + ' ' + name)
@@ -82,7 +82,7 @@ While "+" works on strings, "-" does not.
 
 You can also replicate strings by multiplying them with an integer
 
-```python3
+```python
 name = 'chris'
 greeting = 'hello'
 print(greeting*2 + ' ' + name)
@@ -94,7 +94,7 @@ print(greeting*2 + ' ' + name)
 * int()
 * float()
 
-```python3
+```python
 # convert a string to a number
 numstr = '20'
 int(numstr)
@@ -116,12 +116,12 @@ Make yourself familiar with the behavior of the conversion operators!
 ### Lists
 We typically want to store many numbers and/or strings, for this we uses Lists and Dictionaries
 
-```python3
+```python
 countries = ['Spain', 'France']
 capitals = ['Madrid', 'Paris']
 ```
 We can access values of a list with square brackets, what does the following evaluate to?
-```python3
+```python
 countries[1]
 ```
 
@@ -129,12 +129,12 @@ countries[1]
 ### Lists 2
 We typically want to store many numbers and/or strings, for this we uses Lists and Dictionaries
 
-```python3
+```python
 countries = ['Spain', 'France']
 capitals = ['Madrid', 'Paris']
 ```
 We can access values of a list with square brackets, what does the following evaluate to?
-```python3
+```python
 >>> countries[1]
 'France'
 ```
@@ -143,7 +143,7 @@ Lists have zero based indexing: the first element has index "0"
 
 ### Dictionaries
 Suppose we want to store the capital of each country in a more structured manner we can use dictionaries. Instead of indexing by numbers, a dictionary is accessed by key values
-```python3
+```python
 capitals = {'Spain':'Madrid', 'France':'Paris'}
 capitals['Spain']
 ```
@@ -151,10 +151,66 @@ capitals['Spain']
 
 
 ### Booleans
-Booleans evaluate only to "True" or "False"
+Booleans evaluate only to "True" or "False". We need those so that we can decide what to do in a program.
 
-```python3
+```python
 mybool = True
 otherbool = False
 ```
+
+Comparison Operators
+```python
+x = 1.5
+y = 2.
+# equal to
+x == y
+# not equal to
+x != y
+# smaller than
+x < y
+# greater than
+x > y
+# smaller than
+x <= y
+# greater than
+x >= y
+```
+
+---
+
+
+### Booleans
+Booleans evaluate only to "True" or "False". We need those so that we can decide what to do in a program.
+
+```python
+mybool = True
+otherbool = False
+```
+
+Comparison Operators
+```python
+x = 1.5
+y = 2.
+# equal to
+x == y
+# not equal to
+x != y
+# smaller than
+x < y
+# greater than
+x > y
+# smaller than
+x <= y
+# greater than
+x >= y
+```
+Now consider logical "and" and "or"
+```python
+z = 3.
+# the logical and
+x < y and x < z
+x < y and x > z
+x < y or x > z
+```
+
 ---
