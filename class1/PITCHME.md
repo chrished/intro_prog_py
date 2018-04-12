@@ -191,7 +191,7 @@ Booleans evaluate only to "True" or "False". We need those so that we can decide
 Now consider logical "and" and "or"
 ```python
 z = 3.
-# the logical and
+# the logical and/or 
 x < y and x < z
 x < y and x > z
 x < y or x > z
@@ -260,4 +260,4 @@ while True:
 
 Go to [Automate the Boring Stuff](https://automatetheboringstuff.com) and try the exercises in Chapter 1-5
 
-we did not talk about functions yet, so you maybe want to skip it
+we did not talk about functions yet, so feel free to skip them
