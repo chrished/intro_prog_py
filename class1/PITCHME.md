@@ -1,5 +1,13 @@
 ## Introduction to Python
 
+---
+
+### Python
+
+For some background see
+* its [Wikipedia Page](https://en.wikipedia.org/wiki/Python_(programming_language))
+* and its creator [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum)
+
 
 ---
 
@@ -207,3 +215,49 @@ else:
 * codeblock to be executed is indented by 4 spaces (and ends 4 spaces to the left)
 * "elif" is only called if the first condition was "false"
 *  "else" is only called if neither the first nor the second condition was "true"
+
+---
+
+### for loops
+In cases where you want to do a certain task a number of times a loop is what you are looking for
+```python
+
+for i in range(5):
+    print(i)
+
+for name in ["anna", "bob"]:
+    print(name)
+
+res = 0
+for k in range(1, 10):
+    res += k
+    print(res)
+    if res == 6:
+        break
+```
+
+---
+
+### while loops
+in case you want to repeat a task until a certain condition is met, a while loop comes in handy
+```python
+x = 0
+while x < 5:
+    x += 1
+    print(x)
+
+# this loop will never end. so maybe do not execute it without adding a termination clause
+while True:
+    x+=1
+    print("We are going to infinity, currently at ", x)
+```
+
+
+
+---
+
+### Exercises
+
+Go to [Automate the Boring Stuff](https://automatetheboringstuff.com) and try the exercises in Chapter 1-5
+
+we did not talk about functions yet, so you maybe want to skip it

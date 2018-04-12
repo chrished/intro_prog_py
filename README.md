@@ -22,15 +22,18 @@ Some Links:
 
 ## Class 1 - First Introduction to Python
 
+[Slides - Class 1](https://gitpitch.com/chrished/intro_prog_py/master?p=class1)
+
 * Basic introduction: Define variables, lists and dictionaries
 * Operators on numbers/strings
 * Data types
+* Booleans
+* if-else, for-, while-loops
 
 ## Class 2 - Programming Essentials
 After this class you know the most important programming concepts, based on which you can write almost any program.
 
 * Revisit basics
-* if-else, for-, while-loops
 * Functions
 * import a package
 * numpy/scipy/pandas
