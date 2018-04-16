@@ -57,6 +57,6 @@ We will focus on writing functions, but you will encounter the "obj.method()" sy
 ---
 ### Functions Exercise
 
-1. Write a function that takes as input three numbers: Initial wealth *a*, interest rate *r* and number of periods *t*. Suppose end of period wealth is calculated as $a_{t+1} = a_t(1+r)$. Now your function is supposed to calculate your wealth t periods into the future!
+1. Write a function that takes as input three numbers: Initial wealth *a*, interest rate *r* and number of periods *t*. Suppose end of period wealth is calculated as $$a_{t+1} = a_t(1+r)$$. Now your function is supposed to calculate your wealth t periods into the future!
 
 2.
