@@ -57,6 +57,34 @@ We will focus on writing functions, but you will encounter the "obj.method()" sy
 ---
 ### Functions Exercise
 
-1. Write a function that takes as input three numbers: Initial wealth *a*, interest rate *r* and number of periods *t*. Suppose end of period wealth is calculated as $$a_{t+1} = a_t(1+r)$$. Now your function is supposed to calculate your wealth t periods into the future!
+1. Write a function that takes as input three numbers: Initial wealth *a*, interest rate *r* and number of periods *t*. Suppose end of period wealth is calculated as $$a_{t+1} = a_t(1+r)$$. Now your function is supposed to return   wealth t periods into the future!
 
-2.
+2. Write a function that takes a string and returns it stripped of all ";", "_" and whitespaces " ".  (There is a python function that basically does the job for you, if you want you can use it or write everything yourself)
+
+---
+
+### Working with packages
+
+```python
+import numpy as np
+
+a = np.arange(10)
+b = a.reshape(2,5)
+b.ndim
+b.dtype.name
+b.size
+type(b)
+
+```
+---
+
+### Numpy example
+Ndimensional - Array
+mean, sum, min, max
+
+---
+### Numpy OLS
+
+
+---
+### Pandas OLS
