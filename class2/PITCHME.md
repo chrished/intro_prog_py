@@ -30,7 +30,6 @@ def myfun(arg1, arg2):
 ```
 
 ---
-
 ### Functions/Methods - 2
 There are many methods defined to operate only on certain types of objects, for example `list.append`
 ```python
@@ -45,3 +44,19 @@ print("now x has two elements again: ", x)
 print("we dropped: ", lastelement)
 
 ```
+
+---
+### Functions/Methods - 3
+
+We will focus on writing functions, but you will encounter the "obj.method()" syntax a lot!
+
+* Methods operate on objects of a specific class (like `listobject.append()` )
+* methods often change the object they operate on
+* the key difference of a class specific method to a general function is that they take the class instance as the first argument for the function call
+
+---
+### Functions Exercise
+
+1. Write a function that takes as input three numbers: Initial wealth *a*, interest rate *r* and number of periods *t*. Suppose end of period wealth is calculated as $a_{t+1} = a_t(1+r)$. Now your function is supposed to calculate your wealth t periods into the future!
+
+2.
