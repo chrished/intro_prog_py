@@ -9,7 +9,6 @@ import numpy as np
 
 a = np.array([1.5,2,3])
 b = np.array([(1.5,2,3), (4,5,6)])
-c = np.linspace(0.,2*np.pi,100)
 
 import matplotlib.pyplot as plt
 # see  https://matplotlib.org/1.2.1/examples/pylab_examples/

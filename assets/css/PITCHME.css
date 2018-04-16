@@ -22,11 +22,12 @@ html:-moz-full-screen-ancestor {
 .reveal pre code {
   font-size: 1.3em;
   line-height: 1.2;
+  margin-left: 10%;
 }
 
 .reveal pre {
   width: 90%;
-  margin-left: -10%;
+  margin-left: 10%;
   font-size: .65em !important;
   box-shadow : none;
 }
@@ -94,11 +95,11 @@ html:-moz-full-screen-ancestor {
 .reveal .slides {
     text-align: left;
     font-size: .8em !important;
-    margin-left: 5;
+    margin-left: 10%;
 }
 
 .reveal .slides section>* {
-    margin-left: 5;
+    margin-left: 10%;
     margin-right: 0;
 }
 
