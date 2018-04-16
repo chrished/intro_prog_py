@@ -55,10 +55,12 @@ We will focus on writing functions, but you will encounter the "obj.method()" sy
 * the key difference of a class specific method to a general function is that they take the class instance as the first argument for the function call
 
 ---
-### Functions Exercise
+### Functions Exercise 1
 
 1. Write a function that takes as input three numbers: Initial wealth *a*, interest rate *r* and number of periods *t*. Suppose end of period wealth is calculated as $$a_{t+1} = a_t(1+r)$$. Now your function is supposed to return   wealth t periods into the future! Suppose initial wealth is 1321€ and the interest rate is 5\%, what's your wealth 5 periods in the future?
 
+---
+### Functions Exercise 2
 2. Write a function that takes a string and returns it stripped of all ";", "\_" and whitespaces " ".  (There is a python function  that basically does the job for you, if you want you can use it or write everything yourself). Then apply your function to: "Lady; Alice_McAllister  ".
 
 ---
