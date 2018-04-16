@@ -94,10 +94,11 @@ html:-moz-full-screen-ancestor {
 .reveal .slides {
     text-align: left;
     font-size: .8em !important;
+    margin-left: 5;
 }
 
 .reveal .slides section>* {
-    margin-left: 0;
+    margin-left: 5;
     margin-right: 0;
 }
 
