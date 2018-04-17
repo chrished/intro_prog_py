@@ -19,7 +19,7 @@ Today:
 
 ---
 
-### Functions/Methods
+### Functions
 Define a function like this
 ```python
 def myfun(arg1, arg2):
@@ -30,12 +30,12 @@ def myfun(arg1, arg2):
 ```
 
 ---
-### Functions/Methods - 2
+### Functions - 2
 There are many methods defined to operate only on certain types of objects, for example `list.append`
 ```python
 x = [3, 4]
 print("x has two elements: ", x)
-x.append(5)
+x.append(5) # alternatively write: list.append(x, 5)
 print("now x has three elements: ", x)
 
 # we can also drop the last element
@@ -46,18 +46,18 @@ print("we dropped: ", lastelement)
 ```
 
 ---
-### Functions/Methods - 3
+### Functions - 3
 
-We will focus on writing functions, but you will encounter the "obj.method()" syntax a lot!
+We will just write general functions, but you will encounter the "obj.method()" syntax a lot!
 
-* Methods operate on objects of a specific class (like `listobject.append()` )
+* they operate on objects of a specific class (like `list.append()` )
 * methods often change the object they operate on
-* the key difference of a class specific method to a general function is that they take the class instance as the first argument for the function call
+* important difference of a class specific method to a general function is that they take the class instance as the first argument for the function call
 
 ---
 ### Functions Exercise 1
 
-1. Write a function that takes as input three numbers: Initial wealth *a*, interest rate *r* and number of periods *t*. Suppose end of period wealth is calculated as $$a_{t+1} = a_t(1+r)$$. Now your function is supposed to return   wealth t periods into the future! Suppose initial wealth is 1321€ and the interest rate is 5\%, what's your wealth 5 periods in the future?
+1. Write a function that takes as input three numbers: Initial wealth *a*, interest rate *r* and number of periods *dt*. Suppose end of period wealth is calculated as $$a_{t+1} = a_t(1+r)$$. Now your function is supposed to return   wealth t periods into the future! Suppose initial wealth is 1321€ and the interest rate is 5\%, what's your wealth 5 periods in the future?
 
 ---
 ### Functions Exercise 2
