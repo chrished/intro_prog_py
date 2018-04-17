@@ -31,6 +31,9 @@ Some Links:
 * if-else, for-, while-loops
 
 ## Class 2 - Programming Essentials
+
+[Slides - Class 2](https://gitpitch.com/chrished/intro_prog_py/master?p=class2)
+
 After this class you know the most important programming concepts, based on which you can write almost any program.
 
 * Revisit basics
