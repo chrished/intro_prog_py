@@ -42,13 +42,12 @@ After this class you know the most important programming concepts, based on whic
 * numpy/scipy/pandas
 
 
-## Class 3 - Working with packages
-One of the biggest benefits of Python is its large user base. You will find a lot of code/packages that make your life a lot easier. In this class you will learn how to install packages, load them and make use of them.
+## Class 3 - Interacting with the web, File IO
+[Slides - Class 3](https://gitpitch.com/chrished/intro_prog_py/master?p=class3)
 
-* Quick review on Conditionals, Loops and Functions
-* Installing Packages with pypi
-* Example usages of numpy/scipy/pandas, simple statistics example
-* Beautiful Soup and urrlib, simple web scraping example
+* urllib
+* File IO using pandas and open/csv
+* Beautiful Soup
 
 ## Class 4 - Student Projects
 From now on, classes will be more like a QA session. You can only learn programming by doing, therefore it's important to get started on your projects and along the way I can help with issues that come up.
