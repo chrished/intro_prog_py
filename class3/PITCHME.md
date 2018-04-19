@@ -27,8 +27,111 @@ zip_ref.extractall("/home/christoph/git/intro_prog_py/data/ssa")
 zip_ref.close()
 ```
 
+---
 ### Load Data into Python
-Variant 1: `open`
+Variant 1: Pandas
+
+```python
+import pandas as pd
+
+df = pd.read_csv("/home/christoph/git/intro_prog_py/data/ssa/yob1900.txt", sep=",", names=¨["Name", "Sex", "Count"])
+
+print(df.head())
+```
+
+---
+### Load Data into Python
+Variant 2: `open` and `csv`
+
 ```python
 
+import csv
+
+rows_read = []
+
+with open("/home/christoph/git/intro_prog_py/data/ssa/yob1900.txt", 'rt') as ssafile:
+    ssareader = csv.reader(ssafile, delimiter=',')
+    for row in ssareader:
+        rows_read.append(row)
+
+print(rows_read[1:5])
+```
+
+---
+### Analysis of data
+you have the babynames in `df` (a pandas DataFrame), how to analyze?
+```python
+# tries maximum for all columns
+print(df.max())
+# tries maximum for all columns
+print(df.max(numeric_only=True))
+
+# What is that most frequent name?
+mostcommon = df.loc[df['Count'] == df['Count'].max()]
+# What is that median frequent name?
+mediancommon = df.loc[df['Count'] == df['Count'].median()]
+```
+
+---
+### Analysis of data - Exercises
+
+1. Reshape Data such that for each name there is only one row, but separate counts for male and female occurrences.
+2. For each year extract the 5 most common male and female names and put them in a new table (e.g. a pandas.DataFrame)
+
+
+---
+### Downloading a website
+Similar to downloading a file
+```python
+import urllib.request
+
+url = "https://en.wikipedia.org/wiki/Guido_van_Rossum"
+response = urllib.request.urlopen(url)
+html = response.read()    
+
+
+```
+---
+
+### Extracting Info from HTML
+
+```python
+from bs4 import BeautifulSoup
+
+soup = BeautifulSoup(html, 'html.parser')
+print(soup.prettify())
+
+# website title
+soup.title.string
+# find all links
+soup.find_all('a')
+```
+
+---
+
+### Extracting Info from HTML - read text
+
+```python
+paragraphs = soup.find_all('p')
+# the fifth paragraph describes where he lives
+p5 = paragraphs[4].text
+# count Guido
+p5.count("Guido")
+
+# alternative with regex for exact matches
+import re
+count = sum(1 for _ in re.finditer(r'\b%s\b' % re.escape("Guido"), p5))
+# See: https://docs.python.org/3.6/howto/regex.html
+```
+---
+### Extracting Info from HTML - read table
+```python
+# find where Guido lives in a roundabout manner
+table = soup.find('table')
+for row in table.find_all('tr'):
+    th = row.find('th')
+    if th is not None:
+        #print(th.string)    
+        if th.string == "Residence":
+            print("Guido lives in: ", row.find('a').string)
 ```
