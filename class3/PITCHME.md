@@ -90,8 +90,6 @@ import urllib.request
 url = "https://en.wikipedia.org/wiki/Guido_van_Rossum"
 response = urllib.request.urlopen(url)
 html = response.read()    
-
-
 ```
 ---
 
@@ -118,17 +116,18 @@ paragraphs = soup.find_all('p')
 # the fifth paragraph describes where he lives
 p5 = paragraphs[4].text
 # count Guido
-p5.count("Guido")
-
+nGuido = p5.count("Guido")
+print("We have found ", nGuido, " Guidos in our paragraph")
 # alternative with regex for exact matches
 import re
 count = sum(1 for _ in re.finditer(r'\b%s\b' % re.escape("Guido"), p5))
 # See: https://docs.python.org/3.6/howto/regex.html
 ```
+
 ---
 ### Extracting Info from HTML - read table
 ```python
-# find where Guido lives in a roundabout manner
+# Find where Guido lives in a roundabout manner
 table = soup.find('table')
 for row in table.find_all('tr'):
     th = row.find('th')
