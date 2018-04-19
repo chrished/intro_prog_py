@@ -134,3 +134,11 @@ for row in table.find_all('tr'):
         if th.string == "Residence":
             print("Guido lives in: ", row.find('a').string)
 ```
+
+---
+### What do you want to do as a project?
+As an exercise carry out your project in a Github repository:
+1. [Add an SSH key](https://help.github.com/articles/connecting-to-github-with-ssh/) to your Github account
+2. Create a repository
+3. Clone it to your computer (using the ssh link!)
+4. add something your repository, commit your work and push it to the Github server
