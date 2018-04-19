@@ -62,10 +62,8 @@ print(rows_read[1:5])
 ### Analysis of data
 you have the babynames in `df` (a pandas DataFrame), how to analyze?
 ```python
-# tries maximum for all columns
+# maximum for all columns
 print(df.max())
-# tries maximum for all columns
-print(df.max(numeric_only=True))
 
 # What is that most frequent name?
 mostcommon = df.loc[df['Count'] == df['Count'].max()]
