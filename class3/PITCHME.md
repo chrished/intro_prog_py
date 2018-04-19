@@ -34,7 +34,8 @@ Variant 1: Pandas
 ```python
 import pandas as pd
 
-df = pd.read_csv("/home/christoph/git/intro_prog_py/data/ssa/yob1900.txt", sep=",", names=¨["Name", "Sex", "Count"])
+df = pd.read_csv("/home/christoph/git/intro_prog_py/data/ssa/yob1900.txt",
+                  sep=",", names=¨["Name", "Sex", "Count"])
 
 print(df.head())
 ```
