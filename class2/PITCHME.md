@@ -153,3 +153,8 @@ df = pd.DataFrame({"y": y, "x": x})
 result = sm.ols(formula="y ~ x", data=df).fit()
 print(result.summary())
 ```
+
+
+---
+### Python Array type
+check [documentation](https://docs.python.org/3/library/array.html) and compare with `numpy`

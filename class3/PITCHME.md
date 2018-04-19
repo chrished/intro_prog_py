@@ -5,10 +5,12 @@
 
 ### Class 3
 Today:
-1. Download a file/website
-2. import data from file (with open and pandas)
+1. Download a file/website with `urllib`
+2. import data from file (with `csv` and `pandas`)
 3. word count
+4. extract info from html with `BeautifulSoup`
 
+Checkout the documentation of the packages, they can do a lot more than just the examples here
 ---
 
 ### Download a file
@@ -61,6 +63,7 @@ print(rows_read[1:5])
 ---
 ### Analysis of data
 you have the babynames in `df` (a pandas DataFrame), how to analyze?
+
 ```python
 # maximum for all columns
 print(df.max())
