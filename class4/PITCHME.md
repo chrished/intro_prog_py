@@ -16,7 +16,7 @@ Problem: words are written in many ways
 * same word but different
 * Solution: find root of word
 
-Practical Solution: Word Reference
+e.g.: Word Reference
 
 ###  What to look for?
 
