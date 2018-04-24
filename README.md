@@ -50,9 +50,20 @@ After this class you know the most important programming concepts, based on whic
 * Beautiful Soup
 
 ## Class 4 - Student Projects
+[Slides - Class 4](https://gitpitch.com/chrished/intro_prog_py/master?p=class4)
+
+
 From now on, classes will be more like a QA session. You can only learn programming by doing, therefore it's important to get started on your projects and along the way I can help with issues that come up.
 
 * Plan your own project using python, what concepts do you need to learn? What packages do you need?
+
+Don't know where to start/what to do? Checkout these links:
+
+1. [edX Course on Python for Research](https://courses.edx.org/courses/course-v1:HarvardX+PH526x+1T2018/course/)
+2. Andy Halterman for stuff on creating/analyzing event data: https://andrewhalterman.com/2017/05/08/making-event-data-from-scratch-a-step-by-step-guide/ or his [Github page](https://github.com/ahalterman?tab=repositories)
+3. Natural Language Processing: e.g. [Spacy](https://spacy.io/)
+4. Face Recognition (as a service) by [Face++](https://www.faceplusplus.com/)
+5. Extract text from PDFs: [pdfminer](https://github.com/euske/pdfminer)
 
 For some tips on best practices for your own code see the top answer [here](https://stackoverflow.com/questions/356161/python-coding-standards-best-practices).
 
