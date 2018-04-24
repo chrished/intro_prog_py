@@ -32,8 +32,7 @@ def dict_find(word, dictionary):
 # prepare urllib opener
 user_agent =  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36 '
 opener = urllib.request.build_opener()
-opener.addheaders = [
- ('User-agent', user_agent)]
+opener.addheaders = [('User-agent', user_agent)]
 urllib.request.install_opener(opener)
 
 # word list and empty dictionary/list for results
