@@ -18,6 +18,7 @@ Problem: words are written in many ways
 
 e.g.: Word Reference
 
+---
 ###  What to look for?
 
 http://www.wordreference.com/definicion/guapa
@@ -27,7 +28,7 @@ http://www.wordreference.com/definicion/guapa
 3. use BeautifulSoup to extract root
 
 code in `wordreference.py`
-
+---
 ### Projects
 
 1. Setup Github repo
