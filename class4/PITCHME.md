@@ -10,6 +10,7 @@ Today:
 ---
 ### Example - Words
 Goal: Count words
+
 Problem: words are written in many ways
 
 * "guapa", "guapo", "guapas"
