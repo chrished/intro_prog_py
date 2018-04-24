@@ -15,6 +15,14 @@ Some Links:
 
 2. Install Python. I suggest the [Anaconda Distribution](https://www.anaconda.com/download). It comes with many packages preinstalled and an IDE similar to RStudio. Please install python 3.*
 
+
+#### How to Install Packages with conda
+1. check for the right link by searching for it: e.g. search for `conda install unidecode`
+2. you will find [this](https://anaconda.org/anaconda/unidecode)
+3. using conda you run: `conda install -c anaconda unidecode` (This is NOT a python command!)
+  * open the "Anaconda prompt" on Windows, or the "terminal" on Mac/Linux
+  * type `conda install -c anaconda unidecode` and press enter, say yes if conda asks you to install packages
+
 ### Excercises Class 0
 0.1. As an exercise you should create a private repository on github (sign up as an academic account if possible so you get unlimited private repositories).  Clone the repository to your computer and add a txt file. Commit your work and then push it to the github server.
 
@@ -48,6 +56,7 @@ After this class you know the most important programming concepts, based on whic
 * urllib
 * File IO using pandas and open/csv
 * Beautiful Soup
+
 
 ## Class 4 - Student Projects
 [Slides - Class 4](https://gitpitch.com/chrished/intro_prog_py/master?p=class4)
