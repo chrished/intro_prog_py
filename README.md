@@ -76,7 +76,13 @@ Don't know where to start/what to do? Checkout these links:
 
 For some tips on best practices for your own code see the top answer [here](https://stackoverflow.com/questions/356161/python-coding-standards-best-practices).
 
-## Class 5 and 6: Support and Presentation of projects
+## Class 5 - Web APIs
+[Slides - Class 5](https://gitpitch.com/chrished/intro_prog_py/master?p=class5)
+
+1. How to use a Web API (Follow the Money example)
+2. Projects?
+
+## Class 6: Support and Presentation of projects
 * Work on personal project
 * Help with issues and setup of project.
 * students should present their use case

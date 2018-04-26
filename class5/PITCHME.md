@@ -10,7 +10,7 @@ Today:
 ---
 ### APIs
 
-what is an (API)[ https://en.wikipedia.org/wiki/Application_programming_interface]?
+what is an [API](https://en.wikipedia.org/wiki/Application_programming_interface)?
 
 * software communication interface
 * e.g. ask a website for specific data
@@ -31,7 +31,7 @@ Basic format:
 * `y=2003` selects 2003
 * `mode=json` output in JSON format
 * you need an API Key! (sign up on their page)
-* for more detailed options see (documentation)[https://www.followthemoney.org/our-data/apis/]
+* for more detailed options see [documentation](https://www.followthemoney.org/our-data/apis/)
 
 ---
 
