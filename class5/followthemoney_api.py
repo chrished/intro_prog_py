@@ -25,11 +25,11 @@ responses = []
 # in df_conditions
 
 for i, row in df_sets.iterrows():
+    print("At row ", i)
     # add state and year condition
     apicall = api_url + "?" + "s=" + row["s"] + "&" + "y=" + str(row["y"]).replace(" ", "")
     # add rest of conditions
-    rowtype = row["type"]
-    rowconditions = df_conditions.loc[rowtype]
+    rowconditions = df_conditions.loc[row["type"]]
     for condition in conditions:
         cond_val = rowconditions[condition]
         isstring = type(cond_val) == str

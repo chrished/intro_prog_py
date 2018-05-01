@@ -83,6 +83,8 @@ For some tips on best practices for your own code see the top answer [here](http
 2. Projects?
 
 ## Class 6: Support and Presentation of projects
+[Slides - Class 6](https://gitpitch.com/chrished/intro_prog_py/master?p=class6)
+
 * Work on personal project
 * Help with issues and setup of project.
 * students should present their use case
