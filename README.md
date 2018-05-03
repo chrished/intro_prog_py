@@ -3,7 +3,7 @@ This is meant to be a short course that helps you to start programming in Python
 
 Some Links:
 * [Python Getting Started](https://www.python.org/about/gettingstarted/)
-* [Python Wiki in other languages](https://wiki.python.org/moin/Languages)
+* [Automate the Boring Stuff](https://automatetheboringstuff.com) is an online course focusing on beginners
 * [Curated list of links related to Python](https://github.com/vinta/awesome-python)
 * [Data Science related Notebooks](https://github.com/donnemartin/data-science-ipython-notebooks)
 
@@ -23,9 +23,8 @@ Some Links:
   * open the "Anaconda prompt" on Windows, or the "terminal" on Mac/Linux
   * type `conda install -c anaconda unidecode` and press enter, say yes if conda asks you to install packages
 
-### Excercises Class 0
-0.1. As an exercise you should create a private repository on github (sign up as an academic account if possible so you get unlimited private repositories).  Clone the repository to your computer and add a txt file. Commit your work and then push it to the github server.
-
+#### Excercises Class 0
+0.1. Make a repository on github put some file in it and push it to the server
 0.2. Open Spyder and run the "Hello World!" program.
 
 ## Class 1 - First Introduction to Python
@@ -37,6 +36,7 @@ Some Links:
 * Data types
 * Booleans
 * if-else, for-, while-loops
+
 
 ## Class 2 - Programming Essentials
 
@@ -56,6 +56,7 @@ After this class you know the most important programming concepts, based on whic
 * urllib
 * File IO using pandas and open/csv
 * Beautiful Soup
+* [Selenium](https://selenium-python.readthedocs.io/), for dynamic interaction with websites.
 
 
 ## Class 4 - Student Projects
