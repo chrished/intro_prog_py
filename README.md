@@ -3,7 +3,7 @@ This is meant to be a short course that helps you to start programming in Python
 
 Some Links:
 * [Python Getting Started](https://www.python.org/about/gettingstarted/)
-* [Python Wiki in other languages](https://wiki.python.org/moin/Languages)
+* [Automate the Boring Stuff](https://automatetheboringstuff.com) is an online course focusing on beginners
 * [Curated list of links related to Python](https://github.com/vinta/awesome-python)
 * [Data Science related Notebooks](https://github.com/donnemartin/data-science-ipython-notebooks)
 * [Data Quest Web Scraping Tutorial](https://www.dataquest.io/blog/web-scraping-tutorial-python/)
@@ -24,9 +24,8 @@ Some Links:
   * open the "Anaconda prompt" on Windows, or the "terminal" on Mac/Linux
   * type `conda install -c anaconda unidecode` and press enter, say yes if conda asks you to install packages
 
-### Excercises Class 0
-0.1. As an exercise you should create a private repository on github (sign up as an academic account if possible so you get unlimited private repositories).  Clone the repository to your computer and add a txt file. Commit your work and then push it to the github server.
-
+#### Excercises Class 0
+0.1. Make a repository on github put some file in it and push it to the server
 0.2. Open Spyder and run the "Hello World!" program.
 
 ## Class 1 - First Introduction to Python
@@ -38,6 +37,7 @@ Some Links:
 * Data types
 * Booleans
 * if-else, for-, while-loops
+
 
 ## Class 2 - Programming Essentials
 
@@ -57,6 +57,7 @@ After this class you know the most important programming concepts, based on whic
 * urllib
 * File IO using pandas and open/csv
 * Beautiful Soup
+* [Selenium](https://selenium-python.readthedocs.io/), for dynamic interaction with websites.
 
 
 ## Class 4 - Student Projects
@@ -77,7 +78,15 @@ Don't know where to start/what to do? Checkout these links:
 
 For some tips on best practices for your own code see the top answer [here](https://stackoverflow.com/questions/356161/python-coding-standards-best-practices).
 
-## Class 5 and 6: Support and Presentation of projects
+## Class 5 - Web APIs
+[Slides - Class 5](https://gitpitch.com/chrished/intro_prog_py/master?p=class5)
+
+1. How to use a Web API (Follow the Money example)
+2. Projects?
+
+## Class 6: Support and Presentation of projects
+[Slides - Class 6](https://gitpitch.com/chrished/intro_prog_py/master?p=class6)
+
 * Work on personal project
 * Help with issues and setup of project.
 * students should present their use case

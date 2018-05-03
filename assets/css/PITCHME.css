@@ -96,11 +96,12 @@ html:-moz-full-screen-ancestor {
     text-align: left;
     font-size: .8em !important;
     margin-left: 10%;
+    margin-right: 10%;
 }
 
 .reveal .slides section>* {
     margin-left: 10%;
-    margin-right: 0;
+    margin-right: 10%;
 }
 
 .gp-tip { font-size : 1.5em; }
