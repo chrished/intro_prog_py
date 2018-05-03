@@ -6,6 +6,7 @@ Some Links:
 * [Python Wiki in other languages](https://wiki.python.org/moin/Languages)
 * [Curated list of links related to Python](https://github.com/vinta/awesome-python)
 * [Data Science related Notebooks](https://github.com/donnemartin/data-science-ipython-notebooks)
+* [Data Quest Web Scraping Tutorial](https://www.dataquest.io/blog/web-scraping-tutorial-python/)
 
 ## Class 0 - Git and installing python
 
